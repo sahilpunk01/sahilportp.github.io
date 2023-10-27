@@ -88,6 +88,7 @@ input, select, textarea {
 
 	body {
 		background: #303238 url("images/banner.jpg");
+		background: contain!important;
 	}
 
 		body.is-preload * {
