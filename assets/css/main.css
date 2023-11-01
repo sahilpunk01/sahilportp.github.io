@@ -71,7 +71,68 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+/* css for animation */
+@keyframes colorPulse {
+  0% {
+    color: lighten(green, 70%);
+  }
+  40% {
+    color: green;
+  }
+  50% {
+    color: darken(green, 5%);
+  }
+  100% {
+    color: darken(green, 20%);
+  }
+}
 
+:root {
+  background: black;
+  color: darken(green, 20%);
+  font-size: 3em;
+  font-family: monospace;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  width: 100vw;
+}
+
+.column > * {
+  display: block;
+  animation: 3s infinite colorPulse;
+  padding: 0 0.125em;
+}
+
+/* Generate individual columns */
+.col-1 > :nth-child(1) {
+  animation-duration: 4.34783s;
+  animation-delay: 0s;
+}
+
+.col-1 > :nth-child(2) {
+  animation-duration: 4.34783s;
+  animation-delay: 0.08696s;
+}
+
+/* Repeat the pattern for other columns (col-2, col-3, etc.) */
+/* ... */
+
+.col-80 > :nth-child(49) {
+  animation-duration: 4.34783s;
+  animation-delay: 4.30435s;
+}
+
+.col-80 > :nth-child(50) {
+  animation-duration: 4.34783s;
+  animation-delay: 4.3913s;
+}
+
+/*  */
 /* Basic */
 
 	html {
