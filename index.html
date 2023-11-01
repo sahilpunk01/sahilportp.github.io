@@ -39,10 +39,27 @@
 							</header>
 
 						<!-- Banner -->
+						<div class="wrapper">
+							    <script>
+							      var n = 0;
+							      var i = 0;
+							      var value;
+							      while (n <= 80) {
+							        document.write('<div class="column col-' + n + '">');
+							        i = 0;
+							        while (i < 50) {
+							          i++;
+							          value = Math.floor(Math.random() * 431) + 256;
+							          document.write('<span>' + value + '</span>');
+							        }
+							        document.write('</div>');
+							        n++;
+							      }
+							    </script>
+							  </div>
 							<div id="banner">
-								<h2><strong>ZeroFour:</strong> A free responsive site template
-								<br />
-								built on HTML5 and CSS3 by <a href="http://html5up.net">HTML5 UP</a></h2>
+								<h2>Hello World! My name is<Br>
+									Shahil Hussain<a href="http://html5up.net">HTML5 UP</a></h2>
 								<p>Does this statement make you want to click the big shiny button?</p>
 								<a href="#" class="button large icon solid fa-check-circle">Yes it does</a>
 							</div>
