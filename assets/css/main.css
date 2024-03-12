@@ -2427,7 +2427,7 @@ input, select, textarea {
 			}
 		/*HERO*/
 			#banner h2{
-			    font-family: 'Inter', sans-serif;
+			    font-family: 'Inter', sans-serif!IMPORTANT;
 			}
 
 	}
