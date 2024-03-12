@@ -2425,5 +2425,19 @@ input, select, textarea {
 				margin-top: 0;
 				padding: 3em 0 1em 0;
 			}
+		/*HERO*/
+			.hero_heading{
+			    text-align: center;
+			    color: #EFE1D1;
+			    font-family: 'Inter', sans-serif;
+			    letter-spacing: -0.3rem;
+			    width: 100%;
+			    font-size: 7em;
+			    line-height: 1.125;
+			    font-weight: 500;
+			    background-image: linear-gradient(172deg, #A78295 26%, #EFE1D1 60%);
+			    -webkit-background-clip: text;
+			    -webkit-text-fill-color: transparent;
+			}
 
 	}
