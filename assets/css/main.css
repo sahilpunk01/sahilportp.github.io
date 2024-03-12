@@ -2426,7 +2426,7 @@ input, select, textarea {
 				padding: 3em 0 1em 0;
 			}
 		/*HERO*/
-			.hero_heading{
+			#banner h2{
 			    text-align: center;
 			    color: #EFE1D1;
 			    font-family: 'Inter', sans-serif;
